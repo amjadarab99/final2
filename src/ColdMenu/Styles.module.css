@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(143, 137, 137,0.6)
+    background-color: rgba(143, 137, 137,0.6);
 }
 .stylemargin{
     margin: 3% auto;
@@ -14,5 +14,6 @@
     width: 31%;
     margin: 15px auto;
     font-weight: bold;
+    color: white;
 }
 

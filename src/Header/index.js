@@ -6,7 +6,7 @@ import styles from './Styles.module.css';
 function AmjadNavbar(){
     return (
 <Navbar bg="dark" variant="dark" className={styles.container1}>
-    <Navbar.Brand href="#home">Amjad Pubg</Navbar.Brand>
+    <Navbar.Brand href="#home">Amjad</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#features">Features</Nav.Link>

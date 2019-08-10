@@ -1,10 +1,11 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+// import {SocialIcon} from 'react-social-icons';
 
 const Footer = () => {
   return (
     <MDBFooter color="unique-color-dark" className="page-footer font-small pt-0">
-      <div style={{ backgroundColor: "#6351ce" }}>
+      <div style={{ backgroundColor: "grey" }}>
         <MDBContainer fluid className="text-center text-md-left">
           <MDBRow className="py-4 d-flex align-items-center">
             <MDBCol md="6" lg="5" className="text-center text-md-left mb-4 mb-md-0">
@@ -36,7 +37,7 @@ const Footer = () => {
         <MDBRow className="mt-3">
           <MDBCol md="3" lg="4" xl="3" className="mb-4">
             <h6 className="text-uppercase font-weight-bold">
-              <strong>Company name</strong>
+              <strong>Company</strong>
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
@@ -81,6 +82,7 @@ const Footer = () => {
               <a href="#!">Help</a>
             </p>
           </MDBCol>
+          {/* <SocialIcon url=''/> */}
           <MDBCol md="4" lg="3" xl="3" className="mb-4">
             <h6 className="text-uppercase font-weight-bold">
               <strong>Contact</strong>

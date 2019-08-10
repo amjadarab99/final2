@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background:rgb(151, 164, 186); */
+  background-image: url('../src/images/Rose.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
